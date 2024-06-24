@@ -1,0 +1,52 @@
+[
+    {
+        "categoria": "Action figures",
+        "brinquedos": [
+            {
+                "nome": "Lion-O",
+                "imagem": "imgs/toy_001.jpg",
+                "valor": "R$ 100,00",
+                "whatsapp": "319999999999"
+            },
+            {
+                "nome": "Batgirl's Set",
+                "imagem": "imgs/toy_002.jpg",
+                "valor": "R$ 300,00",
+                "whatsapp": "319999999999"
+            },
+            {
+                "nome": "DC Collectibles",
+                "imagem": "imgs/toy_003.jpg",
+                "valor": "R$ 550,00",
+                "whatsapp": "319999999999"
+            },
+            {
+                "nome": "Star Wars Collectibles",
+                "imagem": "imgs/toy_004.jpg",
+                "valor": "R$ 600,00",
+                "whatsapp": "319999999999"
+            },
+            {
+                "nome": "Hush",
+                "imagem": "imgs/toy_006.jpg",
+                "valor": "R$ 800,00",
+                "whatsapp": "319999999999"
+            }
+        ]
+    },
+    {
+        "categoria": "Veículos",
+        "brinquedos": [      
+            {
+                "nome": "Bumblebee",
+                "imagem": "imgs/toy_005.jpg",
+                "valor": "R$ 150,00",
+                "whatsapp": "319999999999"
+            }
+        ]
+    },
+    {
+        "categoria": "Pelúcia",
+        "brinquedos": []
+    }
+]

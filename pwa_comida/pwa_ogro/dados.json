@@ -1,0 +1,45 @@
+[
+    {
+        "categoria":"Comidas Ogras",
+        "itens":[
+            {
+                "nome":"Hamburguer Brutão",
+                "imagem":"images/produto_001.jpg",
+                "descricao":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "link":"http://www.uol.com.br"
+            },
+            {
+                "nome":"Hamburguer Brutão",
+                "imagem":"images/produto_002.jpg",
+                "descricao":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "link":"http://www.globo.com"
+            },
+            {
+                "nome":"Hamburguer Brutão",
+                "imagem":"images/produto_003.jpg",
+                "descricao":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "link":"http://www.google.com.br"
+            }                     
+        ]
+    },{
+        "categoria":"Bebidas Ogras",
+        "itens":[
+            {
+                "nome":"Hamburguer Brutão",
+                "imagem":"images/produto_003.jpg",
+                "descricao":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "link":"http://www.uol.com.br"
+            }                     
+        ]
+    },{
+        "categoria":"Sobremesas Ogras",
+        "itens":[
+            {
+                "nome":"Sorvete de Bacon",
+                "imagem":"images/produto_003.jpg",
+                "descricao":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "link":"http://www.uol.com.br"
+            }                     
+        ]
+    }
+]

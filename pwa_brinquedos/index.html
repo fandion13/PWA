@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="icons/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <!-- 
+
+        ANTES ESTAVA ASSIM:
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+        PARA PERMITIR O MODO OFFLINE EM APLICAÇÕES MOBILE ABRIR LINK ACIMA NO NAVEGADOR E SALVAR COMO, TRAZER O ARQUIVO PARA A PASTA CSS E MODIFICAR O HREF PARA O NOME DO ARQUIVO
+
+    -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- MANIFEST -->
+      <!-- 
+        É um W3C especificação para definir JSON baseado no manifesto para fornecer aos desenvolvedores um local centralizado para colocar os metadados associados a um aplicativo da web, incluindo
+
+        O nome do aplicativo web
+        Links para o aplicativo da web ou ícones de objetos de imagem
+        A URL preferencial para iniciar ou abrir o web app
+        O aplicativo da web de configuração de dados para um número de características
+        Declaração para orientação padrão do aplicativo web
+        Permite definir o modo de exibição 
+        Um local centralizado para colocar os metadados associados a um aplicativo da web 
+      -->
+      <!-- Um local centralizado para colocar os metadados associados a um aplicativo da web  -->
+    <link href="manifest.json" rel="manifest">
+
+    <!-- iOS meta tags and icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="App Storm">
+    <link rel="apple-touch-icon" href="icons/152.png">
+
+    <meta name="description" content="App Storm">
+    <meta name="theme-color" content="#f8931d" />
+
+    <title>App Storm</title>
+  </head>
+  <body>
+    
+    <header class="container-fluid fixed-top">
+
+        <img src="imgs/logo.png" class="logo">
+
+    </header>
+
+    <main class="container" id="content">
+
+        <!-- CONTEÚDO PREENCHIDO NO JS -->
+
+    </main>
+
+    <footer class="container-fluid fixed-bottom">
+
+        <div class="d-grid gap-2">
+            <button type="button" class="btn btn-warning" hidden id="btInstall">Instalar</button>
+        </div>
+
+    </footer>
+
+    <!-- A MESMA COISA AQUI EMBAIXO COM O JS, LINK ANTERIOR: https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- SERVICE WORKER -->
+      <!-- O que você deve saber sobre os Service Workers:
+
+        Eles são codificados em JavaScript. Eles são executados em seu próprio encadeamento, separados do aplicativo e não podem acessar as variáveis ​​DOM ou globais. Mas o aplicativo e o worker podem se comunicar por meio da API post message.
+        Eles podem atuar como proxies de rede programáveis: eles podem interceptar solicitações de rede do navegador e personalizar as respostas.
+        Seu ciclo de vida é independente do aplicativo da Web associado: eles param automaticamente quando não estão em uso e reiniciam quando necessário.
+        Eles podem funcionar mesmo quando o aplicativo da Web associado não está em execução, permitindo alguns novos recursos, como o envio de notificações por push.
+        Várias APIs estão disponíveis no Service Worker para persistir os dados localmente, por exemplo, a API Cache e a API IndexedDB .
+        A maioria das APIs associadas usa o Promises . 
+        
+      -->
+      <!-- Possibilitam armazenar recursos localmente tornando o pwa independente de rede -->
+    <script>
+
+      let swRegistration = null;
+
+      // VERIFICA SE O NAVEGADOR POSSUI SUPORTE AO SERVICE WORKER
+      if('serviceWorker' in navigator) {
+
+        window.addEventListener('load', () => {
+
+          navigator.serviceWorker.register('service-worker.js').then((reg) => {
+
+            console.log("Service Worker registrado com suceeso!")
+            swRegistration = reg;
+
+          });
+
+          inicializarInstalacao();
+
+        });
+
+      }
+
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="19ab650d-e244-4c4d-8b1b-f06907747d67" name="Marcosarrais.com" url="http://www.marcosarrais.com/puc/exemplo_marcos">
+        <fileTransfer host="ftp.marcosarrais.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

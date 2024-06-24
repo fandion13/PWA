@@ -1,0 +1,73 @@
+[
+    {
+        "categoria":"Quitutes Caseiros",
+        "itens":[
+            {
+                "nome":"Pão de Queijo",
+                "imagem":"images/produto_001.jpg",
+                "descricao":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "link":"http://www.globo.com",
+                "mapa":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15205.014579005672!2d-42.530280830224626!3d-17.685474049999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb27f6bd109247d%3A0xe1eb84420a064d54!2sMix%20Pizzaria%20%26%20lanchonete!5e0!3m2!1spt-BR!2sbr!4v1620169263160!5m2!1spt-BR!2sbr"
+            },
+            {
+                "nome":"Biscoito de Polvilho",
+                "imagem":"images/produto_002.jpg",
+                "descricao":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "link":"http://www.globo.com",
+                "mapa":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6074.894278314196!2d-43.990947543219285!3d-19.925690238522556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa696fb3e8cc565%3A0x9d7006098d7db885!2sKoreauto!5e0!3m2!1spt-BR!2sbr!4v1620171778764!5m2!1spt-BR!2sbr"
+            },
+            {
+                "nome":"Queijos Artesanais",
+                "imagem":"images/produto_003.jpg",
+                "descricao":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "link":"http://www.globo.com",
+                "mapa":"http://www.uol.com.br"
+            },
+            {
+                "nome":"Doce de Leite Caseiro",
+                "imagem":"images/produto_004.jpg",
+                "descricao":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "link":"http://www.globo.com",
+                "mapa":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15205.014579005672!2d-42.530280830224626!3d-17.685474049999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb27f6bd109247d%3A0xe1eb84420a064d54!2sMix%20Pizzaria%20%26%20lanchonete!5e0!3m2!1spt-BR!2sbr!4v1620169263160!5m2!1spt-BR!2sbr"
+            }                                    
+        ]
+    },
+    {
+        "categoria":"Para Beber",
+        "itens":[
+            {
+                "nome":"Suco de Milho",
+                "imagem":"images/produto_005.jpg",
+                "descricao":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "link":"http://www.globo.com",
+                "mapa":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15205.014579005672!2d-42.530280830224626!3d-17.685474049999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb27f6bd109247d%3A0xe1eb84420a064d54!2sMix%20Pizzaria%20%26%20lanchonete!5e0!3m2!1spt-BR!2sbr!4v1620169263160!5m2!1spt-BR!2sbr"
+            },
+            {
+                "nome":"Café Moído",
+                "imagem":"images/produto_006.jpg",
+                "descricao":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "link":"http://www.globo.com",
+                "mapa":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15205.014579005672!2d-42.530280830224626!3d-17.685474049999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb27f6bd109247d%3A0xe1eb84420a064d54!2sMix%20Pizzaria%20%26%20lanchonete!5e0!3m2!1spt-BR!2sbr!4v1620169263160!5m2!1spt-BR!2sbr"
+            }
+        ]                  
+    },
+    {
+        "categoria":"Artesanato",
+        "itens":[
+            {
+                "nome":"Caixinhas",
+                "imagem":"images/produto_007.jpg",
+                "descricao":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "link":"http://www.globo.com",
+                "mapa":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15205.014579005672!2d-42.530280830224626!3d-17.685474049999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb27f6bd109247d%3A0xe1eb84420a064d54!2sMix%20Pizzaria%20%26%20lanchonete!5e0!3m2!1spt-BR!2sbr!4v1620169263160!5m2!1spt-BR!2sbr"
+            },
+            {
+                "nome":"Panela de Barro",
+                "imagem":"images/produto_008.jpg",
+                "descricao":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                "link":"http://www.globo.com",
+                "mapa":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15205.014579005672!2d-42.530280830224626!3d-17.685474049999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb27f6bd109247d%3A0xe1eb84420a064d54!2sMix%20Pizzaria%20%26%20lanchonete!5e0!3m2!1spt-BR!2sbr!4v1620169263160!5m2!1spt-BR!2sbr"
+            }
+        ]                  
+    }    
+]
