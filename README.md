@@ -1,1 +1,1 @@
-# Arquivos de PWA's para estudar que fiz na pós-graduação da PUC MINAS
+# Arquivos de PWA's que fiz na pós-graduação da PUC MINAS
